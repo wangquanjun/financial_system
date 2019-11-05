@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\wqj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\NetSarang\Xshell 6\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\wqj\AppData\Local\Yarn\bin;C:\Users\wqj\AppData\Local\Microsoft\WindowsApps;C:\Users\wqj\AppData\Roaming\npm;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wqj\AppData\Local\Yarn\bin;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.25.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+npm manifest: 
+  {
+    "name": "Crm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "ant-design-pro": "^2.3.2",
+      "antd": "^3.21.4",
+      "antd-mobile": "^2.2.14",
+      "bizcharts": "^3.5.5",
+      "copy-to-clipboard": "^3.2.0"
+    },
+    "devDependencies": {
+      "axios": "^0.19.0",
+      "node-sass": "^4.12.0",
+      "sass-loader": "^7.2.0",
+      "umi": "^2.8.17",
+      "umi-plugin-react": "^1.9.15"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

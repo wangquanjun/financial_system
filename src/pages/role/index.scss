@@ -1,0 +1,20 @@
+.role-page{
+  .header-operation{
+    padding: 0 20px;
+  }
+  .data-list{
+    padding: 0 20px;
+    margin-top: 20px;
+    .edit-icon{
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .delete-icon{
+      cursor: pointer;
+    }
+  }
+  .role-name{
+    width: 500px;
+    margin: 0 auto;
+  }
+}

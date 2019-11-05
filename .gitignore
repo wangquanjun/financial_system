@@ -1,0 +1,9 @@
+.idea
+.node_modules
+node_modules
+src/pages/.umi/umiExports.js
+src/pages/.umi/dva.js
+src/pages/.umi/history.js
+src/pages/.umi/polyfills.js
+src/pages/.umi/router.js
+src/pages/.umi/umi.js

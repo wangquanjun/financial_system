@@ -1,0 +1,234 @@
+.xmc-page {
+	background: #ffffff;
+	padding: 50px 0;
+
+	.xmc-page-container {
+		width: 1200px;
+		margin: 0 auto;
+		background: #ffffff;
+		border-radius: 3px;
+		border: solid 1px #f1f1f1;
+
+		.ant-col-18 {
+			padding: 30px;
+		}
+
+		.ant-row {
+			display: flex;
+		}
+
+		.xmc-header {
+			display: flex;
+			padding: 0 20px 20px 20px;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: solid 1px #f1f1f1;
+
+			.xmc-header-left {
+				display: flex;
+				align-items: center;
+				line-height: 35px;
+			}
+
+			.xmc-header-left img {
+				width: 70px;
+				margin-right: 10px;
+			}
+
+			.xmc-coin {
+				font-size: 30px;
+				font-weight: bold;
+				color: #000000;
+			}
+
+			.xmc-header-right span {
+				padding: 10px 10px 10px 35px;
+				border: 1px solid #f1f1f1;
+				border-radius: 5px;
+				background: url("/image/icon_calculator.png") 10px no-repeat;
+				background-size: 20px 20px;
+				cursor: pointer;
+			}
+
+			.xmc-header-right a {
+				color: #000000;
+			}
+
+			.earnings {
+				font-size: 18px;
+				color: #000000;
+			}
+
+		}
+
+		.xmc-bottom {
+			display: block;
+			padding: 40px 20px;
+		}
+
+		.xmc-bottom img {
+			width: 100%;
+			height: auto;
+		}
+
+		.xmc-operator-container {
+
+
+			.ant-card-head {
+				border-bottom: 0;
+				padding: 0;
+				min-height: auto;
+			}
+
+			.ant-card-body {
+				padding: 0;
+				font-size: 18px;
+				font-weight: 600;
+			}
+
+			.xmc-operator {
+				padding: 40px 20px 80px 20px;
+				position: relative;
+				overflow: hidden;
+				background: #363F41;
+			}
+
+			.xmc-operator .xmc-tag {
+				text-align: center;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				position: absolute;
+				width: 220px;
+				right: -80px;
+				top: 20px;
+				padding: 8px 0;
+				background: #f95b46;
+				z-index: 1;
+				color: #ffffff;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+			.ant-card {
+				background: #363F41;
+				color: #ffffff;
+				padding-bottom: 20px;
+			}
+
+			.ant-card-head-title {
+				padding: 0;
+				color: rgba($color:#ffffff, $alpha: 0.6);
+				font-size: 14px;
+			}
+
+			.fund-data {
+				font-size: 12px;
+				line-height: 20px;
+			}
+
+			.ant-btn {
+				height: 40px;
+				line-height: 40px;
+			}
+
+			.ant-btn-primary {
+				background: #62c251;
+				border: 0;
+			}
+
+		}
+
+		.operator-pc {
+			display: block;
+		}
+
+		.operator-mobile {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+	.xmc-page {
+		padding: 0;
+
+		.xmc-page-container {
+			width: 100%;
+
+			.ant-affix {
+				position: none;
+			}
+
+			.ant-col-18 {
+				width: 100%;
+				margin: 0 auto;
+				padding: 20px 2% 0 2%;
+			}
+
+			.ant-col-6 {
+				width: 100%;
+				padding: 2% 0;
+				margin: 0 auto;
+			}
+
+			.ant-row {
+				display: block;
+			}
+
+			.xmc-header {
+				padding: 0 0 10px 0;
+			}
+
+			.xmc-header {
+				.xmc-header-left img {
+					width: 50px;
+				}
+
+				.xmc-coin {
+					font-size: 25px;
+					line-height: 20px;
+				}
+
+				.earnings {
+					font-size: 12px;
+				}
+
+				.xmc-header-right span {
+					font-size: 12px;
+					padding: 10px 10px 10px 30px;
+					background-size: 15px 15px
+				}
+			}
+
+			.xmc-bottom {
+				padding: 30px 0 0 0;
+			}
+
+			.xmc-bottom img {
+				width: 100%;
+				height: auto;
+			}
+
+			.operator-pc {
+				display: none;
+			}
+
+			.operator-mobile {
+				display: block;
+				margin-top: 30px;
+			}
+
+		}
+	}
+}

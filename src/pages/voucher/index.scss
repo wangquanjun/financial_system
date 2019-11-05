@@ -1,0 +1,139 @@
+.voucher-page{
+  padding: 20px;
+}
+.voucher-page .voucher-panel{
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 3px;
+}
+.voucher-page .ant-form-inline .ant-form-item.voucher-number{
+  margin-right: 5px;
+}
+.voucher-page .voucher-title{
+  width: 100%;
+  text-align: center;
+}
+.voucher-page .voucher-title .voucher-1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.voucher-page .upload-bill{
+  float: right;
+}
+.voucher-page .ant-table-thead > tr > th{
+  padding: 16px 5px;
+}
+.voucher-page .ant-table-tbody > tr > td {
+  padding: 0;
+}
+// .voucher-page .table_number input{
+//   padding: 0;
+//   text-align: center;
+//   height: 52px;
+// }
+.voucher-page .table_number{
+  width: 16px;
+  background: #fff;
+}
+.voucher-page .table_number .ant-input-number{
+  width: auto;
+  border: 0;
+  height: 52px;
+}
+.voucher-page .table_number .ant-input-number .ant-input-number-input{
+  height: 52px;
+  padding: 0;
+  text-align: center;
+}
+.voucher-page .table_number .ant-input-number-handler-wrap{
+  display: none;
+}
+.voucher-page .table_panel .ant-input{
+  border: 0;
+  height: 52px;
+}
+.voucher-page .subject-box{
+  position: relative;
+  width: 100%;
+  height: 52px;
+  padding: 5px;
+}
+.voucher-page .subject-box .subject{
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  cursor: pointer;
+}
+.voucher-page .subject-box .auxiliary{
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  cursor: pointer;
+}
+.voucher-page .table_panel{
+  margin-top: 5px;
+}
+.voucher-page .number-total{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.voucher-page .number-total span{
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.voucher-page .table_footer{
+  margin-top: 10px;
+  display: flex;
+}
+
+.voucher-page .table_footer .single_person{
+  flex: 1;
+}
+.auxiliary-popover .auxiliary-box{
+  margin-bottom: 10px;
+}
+
+.auxiliary-popover .auxiliary-save{
+  margin-right: 10px;
+}
+
+.voucher-list .search-panel{
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.voucher-list .search-panel .search-row{
+  display: flex;
+  margin-bottom: 10px;
+}
+.voucher-list .search-panel .search-row .search-item{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.voucher-list .search-panel .search-row .search-item .labelname{
+  width: 80px;
+  text-align: right;
+}
+.voucher-list .search-panel .search-row .search-item.n2{
+  flex: 2;
+}
+.voucher-list .search-panel .search-row .search-item.n3{
+  flex: 3;
+}
+.voucher-list .search-panel .search-row .search-item.n4{
+  flex: 3;
+}
+.voucher-list .search-panel .search-item-ele{
+  margin: 0 10px;
+}
+.voucher-list .search-panel .subject-btn{
+  cursor: pointer;
+  color: #40a9ff;
+}
+.voucher-list .search-panel .ant-row{
+  margin-bottom: 0;
+}

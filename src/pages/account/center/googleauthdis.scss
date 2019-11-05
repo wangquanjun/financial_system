@@ -1,0 +1,25 @@
+.google-auth-dis-page{
+  text-align: center;
+  padding: 40px 0 300px;
+  .tit1{
+    font-size: 24px;
+  }
+  .tit2{
+    font-size: 16px;
+    margin-top: 60px;
+  }
+  .code-input{
+    width: 318px;
+    margin: 40px auto 0;
+  }
+  .finish-btn{
+    width: 318px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 22px;
+    background-color: #62c251;
+    margin: 80px auto 0;
+    color: #fff;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,139 @@
+.dashboard-page{
+  background: #f1f2f7;
+  .da-content{
+    padding: 20px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    .card-list{
+      display: flex;
+      .card{
+        flex: 1;
+        display: flex;
+        margin-right: 15px;
+        .card-icon{
+          background: #6ccac9;
+          padding: 25px;
+          border-radius: 3px;
+        }
+        .card-icon.red{
+          background: #ff6c60;
+        }
+        .card-icon.yellow{
+          background: #f8d347;
+        }
+        .card-icon.blue{
+          background: #57c8f2;
+        }
+        .card-content{
+          background: #fff;
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          border-radius: 3px;
+        }
+      }
+    }
+    .chart-panel{
+      display: flex;
+      margin-top: 20px;
+      background: #fff;
+      .chart-left{
+        flex: 1;
+      }
+      .chart-right{
+        flex: 1;
+      }
+    }
+    .staff-panel{
+      display: flex;
+      margin-top: 20px;
+      .staff-left{
+        flex: 4;
+        background: #fff;
+        margin-right: 30px;
+        .staff-body{
+          padding: 20px;
+          display: flex;
+          .sb-info{
+            margin-left: 10px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            .sb-name{
+              color: #39b5aa;
+              font-size: 18px;
+            }
+            .sb-job{
+              color: #a4aaba;
+              font-size: 13px;
+            }
+          }
+        }
+        
+      }
+      .staff-right{
+        flex: 8;
+        background: #fff;
+        .sr-title{
+          padding: 20px;
+          .sr-job-name{
+            color: #39b5aa;
+            font-size: 18px;
+          }
+          .sr-name{
+            color: #a4aaba;
+            font-size: 13px;
+          }
+        }
+        
+      }
+      .task-panel{
+        padding-bottom: 10px;
+        .task-box{
+          display: flex;
+          padding: 10px 20px;
+          align-items: center;
+          border-top: 1px solid #dee2e6;
+          .task-name{
+            margin-left: 50px;
+          }
+          .task-value{
+            flex: 1;
+            text-align: right;
+            .badge{
+              padding: 3px 7px;
+              font-size: 12px;
+              line-height: 18px;
+              border-radius: 18px;
+              color: #fff;
+              font-weight: bold;
+            }
+            .badge.danger{
+              background: #a9d86e;
+            }
+            .badge.success{
+              background: #ff6c60;
+            }
+            .badge.info{
+              background: #41cac0;
+            }
+            .badge.warning{
+              background: #FCB322;
+            }
+            .badge.primary{
+              background: #8075c4;
+            }
+          }
+        }
+      }
+    }
+    .timeline-box{
+      margin-top: 20px;
+      background: #fff;
+      padding-top: 20px;
+    }
+  }
+  
+}

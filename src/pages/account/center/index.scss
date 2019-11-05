@@ -1,0 +1,66 @@
+.account-center{
+  background: #fff;
+  padding: 60px 40px 120px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 20.6px 0.4px rgba(0, 0, 0, 0.06);
+  .account-icon{
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+    color: #fff;
+    background-color: #62c251;
+    margin: 0 auto;
+    border-radius: 95px;
+    text-align: center;
+    font-size: 48px;
+  }
+  .account-username{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .account-panel{
+    display: flex;
+    margin-top: 60px;
+    .box{
+      border: 1px solid #e0e0e0;
+      flex: 1;
+    }
+    .pw-panel{
+      margin-right: 30px;
+      .up-password{
+        padding: 29px 28px 35px;
+        display: flex;
+        border-bottom: 1px solid #e0e0e0;
+        .up-left{
+          flex: 1;
+          .tit1{
+            font-size:24px;
+          }
+          .tit2{
+            color: #666;
+            font-size: 14px;
+          }
+        }
+        .key-icon{
+          width: 60px;
+        }
+      }
+      .up-box{
+        padding: 10px 28px;
+        display: flex;
+        .up-btn{
+          padding: 8px 28px;
+          border: solid 1px #62c251;
+          color: #62c251;
+          border-radius: 6px;
+          cursor: pointer;
+        }
+      }
+    }
+    
+    .pw-panel.google-auth{
+      margin-right: 0;
+    }
+  }
+}

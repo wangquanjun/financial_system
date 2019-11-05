@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>XMiner.io</title>
+
+</head>
+<body>
+  <div id="root">123</div>
+  <table border="1">
+    <tr>
+      <th>name</th>
+      <th>vale</th>
+    </tr>
+    <tr>
+      <td>joe</td>
+      <td>1</td>
+    </tr>
+    <tr class="asd" style="display: none">
+      <td>mark</td>
+      <td>1</td>
+    </tr>
+    <tr class="asd" style="display: none">
+      <td>mark</td>
+      <td>1</td>
+    </tr>
+  </table>
+  <button onclick="dianji()">点击</button>
+  <button onclick="dianji1()">点击1</button>
+  <script>
+    function dianji(){
+      var items = document.getElementsByClassName('asd');
+      for(var i = 0;i<items.length;i++){
+        items[i].style.display='';
+      }
+      // document.getElementsByClassName('asd').style.display=''
+      // document.getElementById('asd').style.display='';
+    }
+
+    function dianji1(){
+      console.log('123')
+      // document.getElementById('asd').style.display='none';
+      var items = document.getElementsByClassName('asd');
+      for(var i = 0;i<items.length;i++){
+        items[i].style.display='none';
+      }
+    }
+  </script>
+</body>
+</html>
